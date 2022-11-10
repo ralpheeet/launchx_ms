@@ -1,0 +1,53 @@
+*{
+    font-family: cursive;
+}
+
+section{
+    height: 400px;
+}
+
+div{
+    height: 400px;
+}
+
+.fondoColor{
+    background-color: #4e239c;
+}
+
+.fondoOpacidad{
+    background-color: #316356;
+    opacity: 0.6;
+}
+
+.fondoImagen{
+    background-image: url(../IMAGES/img1.png);
+}
+
+.fondoRepetidoX{
+    background-image: url(../IMAGES/img2.png);
+    background-repeat: repeat-x;
+}
+
+.fondoRepetidoY{
+    background-image: url(../IMAGES/img3.png);
+    background-repeat: repeat-y;
+}
+
+.fondoNoRepetido{
+    background-image: url(../IMAGES/img4.png);
+    background-repeat: no-repeat;
+}
+
+.fondoPosicion{
+    background-image: url(../IMAGES/img1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.fondoCompleto{
+    background-image: url(../IMAGES/img1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}

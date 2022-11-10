@@ -1,0 +1,27 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+    font-size: 20px;
+}
+
+.colorRojo{
+    color: red;
+}
+
+.colorRGB{
+    color: rgb(23, 64, 986);
+}
+
+.colorRGBA{
+    color: rgba(23, 64, 986, 0.5);
+}
+
+.colorHEX{
+    color: #157fc525;
+}
+
+.colorHSL{
+    color: hsl(30, 68%, 31%);
+}

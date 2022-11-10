@@ -1,0 +1,144 @@
+<!-- Write html:5 to auto write body program -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Taquerias los de perro</title>
+        <!-- <style></style> -->
+    </head>
+    <body>
+        <header>
+            <h1>Los de perro son tacos perros, desde 2022</h1> 
+        </header>
+        <img src="./Los de perro.png" alt="Logo Los de perro"/>
+        <section>
+            <h2>Nuestro productos</h2>
+            <h3>Tacotes</h3>
+            <ul>
+                <li><b>Bisteck</b>-----------------$35</li>
+                <li><b>Suadero</b>-----------------$35</li>
+                <li><b>Pastor</b>-----------------$35</li>
+                <li><b>Chorizo</b>-----------------$35</li>
+                <li><b>Campechano</b>-----------------$35</li>
+            </ul>
+
+            
+            <h3>Taquitos</h3>
+            <ul>
+                <li><b>Bisteck</b>-----------------$15</li>
+                <li><b>Suadero</b>-----------------$15</li>
+                <li><b>Pastor</b>-----------------$15</li>
+                <li><b>Chorizo</b>-----------------$15</li>
+                <li><b>Campechano</b>-----------------$15</li>
+            </ul>
+
+
+            
+            <h3>Los de perro de verdad</h3>
+
+            <dl>
+                <dt><b>Bisteck de lomito</b>-----------------$55</dt>
+                    <dd>-Taco de bistck con arrachera en tortilla de harina gigante con queso azul</dd>
+                <dt><b>Suaperro</b>-----------------$55</dt>
+                    <dd>-Taco de suadero con salsa de chorizo en tortilla de harina gigante con queso amarillo</dd>
+                <dt><b>Pastor Aleman</b>-----------------$55</dt>
+                    <dd>-Taco de pastor con suadero y loganiza en tortilla de harina gigante con queso blanco</dd>
+                <dt><b>Corizo de perro</b>-----------------$55</dt>
+                    <dd>-Taco de mezla de chorizos con arrachera en tortilla de harina gigante con queso</dd>
+                <dt><b>El corriente</b>-----------------$80</dt>
+                    <dd>-Taco de mezla de todo en tortilla de harina gigante con todos los quesos</dd>
+
+            </dl>
+        </section>
+
+        <section>
+            <h2>Ubicaciones</h2>
+            <h3>Sucursales</h3>
+            <table>
+                <th>Nombre</th>
+                <th>Ubicacion</th>
+                <th>Horarios</th>
+                <tr>
+                    <td>Norte</td>
+                    <td><a href="https://goo.gl/maps/RSTrD7QJogM5fxuc7" target="_blank">Primera Cerrada de, Segunda Cda. de Pamplona, Atlanta, 54740 Cuautitlán Izcalli, Méx.</a> </td>
+                    <td>L-D 24H</td>
+                </tr>
+                <tr>
+                    <td>Centro</td>
+                    <td><a href="https://goo.gl/maps/CEEvAiDtNVWmBewH9" target="_blank">Sta María la Ribera, 06400 Ciudad de México, CDMX,</a> </td>
+                    <td>L - D 2pm - 2am</td>
+                </tr>
+                <tr>
+                    <td>Sur</td>
+                    <td><a href="https://goo.gl/maps/G3DAHip8nvUA5MWa8" target="_blank">35B, Pedregal de Santo Domingo, 04369 Ciudad de México, CDMX.</a> </td>
+                    <td>L - D 5pm - 2am</td>
+                </tr>
+            </table>
+        </section>
+
+
+        <hr>
+
+
+        <section>
+
+            <h2>Pedidos</h2>
+            <h3>Haz tu pedido online</h3>
+
+            <form>
+
+                <p>Selecciona tu sucursal?</p>
+                <select>
+                    <option value="Norte">Norte</option>
+                    <option value="Centro">Centro</option>
+                    <option value="Sur">Surc</option>
+                </select>
+                
+                <p>Cuantos de perro vas a querer?</p>
+                
+                <input type="checkbox" id="Bisteck" name="Bisteck" value="Bisteck">
+                <label for="topping1">Bisteck</label>
+                <input type="number" id="BisteckNumber" name="BisteckNumber" placeholder="Cuantos?" min="0">
+                <br>
+
+                <input type="checkbox" id="Chorizo" name="Chorizo" value="Chorizo">
+                <label for="topping2">Chorizo</label>
+                <input type="number" id="BisteckNumber" name="BisteckNumber" placeholder="Cuantos?" min="0">
+                <br>
+
+                <input type="checkbox" id="Pastor" name="Pastor" value="Pastor">
+                <label for="Pastor">Pastor</label>
+                <input type="number" id="PastorNumber" name="PastorNumber" placeholder="Cuantos?" min="0">
+                <br>
+
+                <input type="checkbox" id="Suadero" name="Suadero" value="Suadero">
+                <label for="Pastor">Pastor</label>
+                <input type="number" id="SuaderoNumber" name="SuaderoNumber" placeholder="Cuantos?" min="0">
+                <br>
+
+                <input type="checkbox" id="Campechano" name="Campechano" value="Campechano">
+                <label for="Pastor">Pastor</label>
+                <input type="number" id="CampechanoNumber" name="CampechanoNumber" placeholder="Cuantos?" min="0">
+                <br><br><br>
+                
+                <label for="Name">Nombre:</label><br>
+                <input type="text" id="Name" name="Name" placeholder="Cual es tu nombre?"> <br><br>
+
+                <label for="Phone">Telefono:</label><br>
+                <input type="text" id="Phone" name="Phone" placeholder="Cual es tu numero de telefono?"><br><br>
+
+                <label for="Address">Direccion:</label><br>
+                <input type="text" id="Address" name="Address" placeholder="Cual es tu direccion?"><br><br>
+
+                <button type="submit" onclick="alert('Pedido enviado');">Solicitar pedido</button>
+
+            </form>
+            
+        </section>
+
+
+    </body>
+
+</html>
